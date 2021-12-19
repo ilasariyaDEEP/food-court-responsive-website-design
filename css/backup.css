@@ -1,0 +1,135 @@
+ /* Navigation */
+ #navbar{
+    display: flex;
+}
+
+#navbar ul li a{
+    font-size: 1.9rem;
+    padding: 10px 30px;
+    padding-bottom: 3.5px;
+    font-size: 2.5rem;
+    display: block;
+}
+/* Navigation Bar: Logo and Image */
+#logo{
+    margin: 25px 20px;
+}
+
+#logo img{
+    height: 160px;
+    margin: 3px 4px;
+}
+
+/* Home section */
+#home{
+    height: 1002px;
+    padding: 0px 0px;
+}
+
+
+#home::before{
+    /* content: "";
+    background:url('../img/bg8.jpg') no-repeat center center/cover;
+    position: absolute; */
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    background-position: 0px -272px;
+}
+
+#home p{
+    font-size: 3.5rem;
+    padding: 0px 50px;
+}
+/* Services Section */
+#services{
+    margin: auto;
+    display: flex;
+}
+
+#services .box{
+    /* border: 2px solid;  */
+    padding: 30px;
+    margin: 50px 50px;
+}
+
+#services .box img{
+    height: 300px;
+}
+
+.center{
+    font-size: 1.8rem;
+}
+/* Clients Section */
+#clients{
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+#client-section{
+    height: 550px;
+}
+
+#clients img{
+    overflow: hidden;
+    height: 210px;
+}
+
+/* Contact Section */
+#contact{
+    height: 820px;
+}
+
+#contact::before{
+    height: 70%;
+}
+
+#contact-box input, #contact-box textarea{
+    padding: 0.9rem;
+    border-radius: 8px;
+    font-size: 1.3rem;
+}
+
+#contact-box form{
+    width: 60%;
+}
+
+#contact-box label{
+    font-size: 1.9rem;
+}
+
+/* Uitility Classes */
+.h-primary{
+    font-size: 4rem;
+}
+
+.h-secondary{
+    font-size: 2.5rem;
+    padding: 30px;
+}
+
+.btn{
+    padding: 12px 25px;
+    margin: 25px;
+    font-size: 2.3rem;
+}
+
+/* @media (max-width:426px){
+     
+} */
+/* @media (min-width:426px) and (max-width:769px){
+
+} */
+/* @media (min-width:769px) and (max-width:1025px){
+
+} */
+    
+/* @media (min-width:1025px) and (max-width:1441px) {
+   
+} */
+@media (min-width:1441x) and (max-width:2560px){
+    #navbar{
+        height: 1000px;
+    }
+}

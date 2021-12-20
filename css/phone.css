@@ -1,10 +1,10 @@
 /* small laptop */
 @media (max-width:1400px) {
-    #home, #services-container, #client-section, #contact{
-        width: 100%;
-    }
+    /* #home, #services-container, #client-section, #contact{
+        width: 102%;
+    } */
     footer{
-        width:98%;
+        width:100%;
     }
     #clients img{
         height: 90px;
@@ -14,13 +14,12 @@
 /* Tablet min-width:0px*/
 @media (max-width:992px) {
     #home, #services-container, #client-section, #contact{
-        width: 100%;
+        width: 103%
     }
     footer{
-        width:98%;
+        width:101%;
     }
     #home {
-        /* width: 105%; */
         background-position-x: center;
         background-position-y: center;
     }
@@ -38,14 +37,11 @@
         font-size: 1.5rem;
     }
     
-    #services-container{
-        /* width: 133%; */
-    }
     #services{
         flex-direction: column;
     }
     #contact{
-        height: 600px;
+        height: 651px;
     }
     #contact-box form{
         width: 70%;
@@ -53,14 +49,11 @@
     #client-section{
         height: 100%;
         flex-direction: column;
-        /* width: 133%; */
     }
     #clients img{
         height: 60px;
     }
-    #contact, footer{
-        /* width: 133%; */
-    }
+
     .h-primary{
         font-size: 3.5rem;
     }
@@ -121,7 +114,7 @@
         height: 80px;
     }
     footer{ 
-            width: 98%;
+            width: 100%;
 
     }
 }
@@ -140,9 +133,12 @@
         height: 80px;
         margin: 3px 4px;
     }
-    /* #home, #services-container, #client-section, #contact, footer{
-        width: 115%;
-    } */
+    #home, #services-container, #client-section, #contact, footer{
+        width: 100%;
+    }
+    footer{
+        font-size: 12px;
+    }
     /* .center{
         font-size: 1rem;
     } */
